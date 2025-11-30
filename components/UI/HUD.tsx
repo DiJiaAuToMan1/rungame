@@ -92,7 +92,7 @@ const RechargeScreen: React.FC = () => {
                      </div>
                      <div className="bg-white p-2 rounded-lg mb-2">
                         {/* Placeholder QR Code - Using a generic QR API to simulate the look */}
-                        <img src="e84973f764b0360c0c85e01d438fbfdf.jpg" alt="收款码" className="w-32 h-32 md:w-40 md:h-40" />
+                        <img src="components/UI/e84973f764b0360c0c85e01d438fbfdf.jpg" alt="收款码" className="w-32 h-32 md:w-40 md:h-40" />
                      </div>
                      <p className="text-xs text-gray-500">支持微信支付</p>
                  </div>
