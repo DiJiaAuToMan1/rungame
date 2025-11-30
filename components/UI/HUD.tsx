@@ -113,7 +113,7 @@ const RechargeScreen: React.FC = () => {
                          <div className="flex gap-2">
                              <input 
                                 type="text" 
-                                placeholder="输入key: daoju_enter_1"
+                                placeholder="输入key"
                                 className="flex-1 bg-black/30 border border-gray-600 rounded px-2 py-1 text-sm focus:border-cyan-500 outline-none"
                                 value={keys.pack}
                                 onChange={(e) => setKeys({...keys, pack: e.target.value})}
@@ -134,7 +134,7 @@ const RechargeScreen: React.FC = () => {
                          <div className="flex gap-2">
                              <input 
                                 type="text" 
-                                placeholder="输入key: life_enter_1"
+                                placeholder="输入key"
                                 className="flex-1 bg-black/30 border border-gray-600 rounded px-2 py-1 text-sm focus:border-pink-500 outline-none"
                                 value={keys.life}
                                 onChange={(e) => setKeys({...keys, life: e.target.value})}
@@ -155,7 +155,7 @@ const RechargeScreen: React.FC = () => {
                          <div className="flex gap-2">
                              <input 
                                 type="text" 
-                                placeholder="输入key: super_gift"
+                                placeholder="输入key"
                                 className="flex-1 bg-black/30 border border-gray-600 rounded px-2 py-1 text-sm focus:border-purple-500 outline-none"
                                 value={keys.super}
                                 onChange={(e) => setKeys({...keys, super: e.target.value})}
