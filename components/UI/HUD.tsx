@@ -266,7 +266,7 @@ export const HUD: React.FC = () => {
                         <button onClick={() => { audio.init(); startGame(); }} className="w-full group relative px-6 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white font-black text-xl rounded-xl hover:bg-white/20 transition-all shadow-[0_0_20px_rgba(0,255,255,0.2)] hover:shadow-[0_0_30px_rgba(0,255,255,0.4)] hover:border-cyan-400 overflow-hidden">
                             <span className="relative z-10 tracking-widest flex items-center justify-center">开始任务 <Play className="ml-2 w-5 h-5 fill-white" /></span>
                         </button>
-                        <p className="text-cyan-400/60 text-[10px] md:text-xs font-mono mt-3 tracking-wider">[ 点击或使用方向键 ]</p>
+                        <p className="text-cyan-400/60 text-[10px] md:text-xs font-mono mt-3 tracking-wider">[ 打不过可以点一下右上角神秘小按钮 ]</p>
                      </div>
                 </div>
               </div>
